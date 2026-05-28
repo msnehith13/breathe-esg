@@ -1,0 +1,132 @@
+{
+  "report_metadata": {
+    "source": "Concur Travel & Expense",
+    "export_date": "2024-01-31",
+    "company_code": "ACME-IN",
+    "report_type": "Travel Expense Report"
+  },
+  "trips": [
+    {
+      "trip_id": "TR-2024-001",
+      "employee_id": "EMP-101",
+      "travel_date": "2024-01-05",
+      "category": "flight",
+      "origin": "BOM",
+      "destination": "DEL",
+      "ticket_class": "economy",
+      "distance_km": null,
+      "cost_inr": 8500,
+      "vendor": "IndiGo"
+    },
+    {
+      "trip_id": "TR-2024-002",
+      "employee_id": "EMP-102",
+      "travel_date": "2024-01-08",
+      "category": "flight",
+      "origin": "DEL",
+      "destination": "BLR",
+      "ticket_class": "business",
+      "distance_km": null,
+      "cost_inr": 22000,
+      "vendor": "Air India"
+    },
+    {
+      "trip_id": "TR-2024-003",
+      "employee_id": "EMP-101",
+      "travel_date": "2024-01-10",
+      "category": "hotel",
+      "origin": null,
+      "destination": "DEL",
+      "ticket_class": null,
+      "distance_km": null,
+      "cost_inr": 12000,
+      "vendor": "Taj Hotels",
+      "nights": 3
+    },
+    {
+      "trip_id": "TR-2024-004",
+      "employee_id": "EMP-103",
+      "travel_date": "2024-01-12",
+      "category": "ground_transport",
+      "origin": "BLR",
+      "destination": "BLR",
+      "ticket_class": null,
+      "distance_km": 45,
+      "cost_inr": 1200,
+      "vendor": "Ola Corporate"
+    },
+    {
+      "trip_id": "TR-2024-005",
+      "employee_id": "EMP-104",
+      "travel_date": "2024-01-15",
+      "category": "flight",
+      "origin": "MAA",
+      "destination": "BOM",
+      "ticket_class": "economy",
+      "distance_km": null,
+      "cost_inr": 7200,
+      "vendor": "SpiceJet"
+    },
+    {
+      "trip_id": "TR-2024-006",
+      "employee_id": "EMP-102",
+      "travel_date": "2024-01-18",
+      "category": "flight",
+      "origin": "XYZ",
+      "destination": "ABC",
+      "ticket_class": "economy",
+      "distance_km": null,
+      "cost_inr": 5000,
+      "vendor": "Unknown Airline"
+    },
+    {
+      "trip_id": "TR-2024-007",
+      "employee_id": "EMP-105",
+      "travel_date": "2024-01-20",
+      "category": "hotel",
+      "origin": null,
+      "destination": null,
+      "ticket_class": null,
+      "distance_km": null,
+      "cost_inr": 8500,
+      "vendor": "OYO Business",
+      "nights": 2
+    },
+    {
+      "trip_id": "TR-2024-008",
+      "employee_id": "EMP-103",
+      "travel_date": "2024-01-22",
+      "category": "ground_transport",
+      "origin": null,
+      "destination": null,
+      "ticket_class": null,
+      "distance_km": null,
+      "cost_inr": 800,
+      "vendor": "Uber"
+    },
+    {
+      "trip_id": "TR-2024-009",
+      "employee_id": "EMP-106",
+      "travel_date": "2024-01-25",
+      "category": "flight",
+      "origin": "HYD",
+      "destination": "BOM",
+      "ticket_class": "economy",
+      "distance_km": null,
+      "cost_inr": 6800,
+      "vendor": "IndiGo"
+    },
+    {
+      "trip_id": "TR-2024-010",
+      "employee_id": null,
+      "travel_date": "2024-01-28",
+      "category": "flight",
+      "origin": "BOM",
+      "destination": "CCU",
+      "ticket_class": "economy",
+      "distance_km": null,
+      "cost_inr": 9100,
+      "vendor": "Air India"
+    }
+  ]
+}

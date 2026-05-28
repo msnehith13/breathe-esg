@@ -1,0 +1,11 @@
+Meter_ID,Site_Name,Billing_Period_Start,Billing_Period_End,Consumption_kWh,Demand_kVA,Tariff_Code,Account_Number,Unit,Notes
+MTR-001,Mumbai Office,12/12/2023,15/01/2024,48500,120.5,MSEDCL-HT-1,ACC-2024-001,kWh,Billing period crosses month boundary
+MTR-002,Pune Plant,01/01/2024,31/01/2024,72300,210.0,MSEDCL-HT-2,ACC-2024-002,kWh,
+MTR-003,Mumbai Office,15/01/2024,18/02/2024,51200,118.3,MSEDCL-HT-1,ACC-2024-001,kWh,Billing period crosses month boundary
+MTR-001,Mumbai Office,15/01/2024,18/02/2024,48900,122.1,MSEDCL-HT-1,ACC-2024-001,kWh,Duplicate meter same period - flag
+MTR-004,Hyderabad Office,01/01/2024,31/01/2024,0,0.0,TSSPDCL-LT,ACC-2024-003,kWh,Zero consumption - suspicious
+MTR-005,Chennai Plant,01/01/2024,31/01/2024,93100,315.2,TNEB-HT,ACC-2024-004,kWh,
+MTR-002,Pune Plant,01/02/2024,29/02/2024,68400,205.5,MSEDCL-HT-2,ACC-2024-002,kWh,
+MTR-006,Delhi Office,01/01/2024,31/01/2024,29300,,BYPL-LT,ACC-2024-005,,Missing unit and demand
+MTR-003,Mumbai Office,18/02/2024,20/03/2024,55600,125.0,MSEDCL-HT-1,ACC-2024-001,kWh,
+MTR-007,Bangalore Office,01/01/2024,31/01/2024,41800,98.7,BESCOM-LT,ACC-2024-006,kWh,
