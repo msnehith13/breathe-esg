@@ -6,6 +6,7 @@ import os
 DEBUG = False
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='').split(',')
+ALLOWED_HOSTS.append('healthcheck.railway.app')
 
 database_url = os.environ.get('DATABASE_URL') or config('DATABASE_URL', default='')
 
