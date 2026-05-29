@@ -1,17 +1,21 @@
 from .base import *
 import dj_database_url
 from decouple import config
+import os
 
 DEBUG = False
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='').split(',')
 
+database_url = os.environ.get('DATABASE_URL') or config('DATABASE_URL', default='')
+
+if not database_url:
+    raise Exception("DATABASE_URL environment variable is not set")
+
 DATABASES = {
-    'default': dj_database_url.config(
-        env='DATABASE_URL',
-        conn_max_age=600,
-    )
+    'default': dj_database_url.parse(database_url, conn_max_age=600)
 }
+
 
 MIDDLEWARE.insert(1, 'whitenoise.middleware.WhiteNoiseMiddleware')
 
