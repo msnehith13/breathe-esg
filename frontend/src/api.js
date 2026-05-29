@@ -1,14 +1,15 @@
 import axios from 'axios'
 
+const isProduction = !window.location.hostname.includes('localhost')
+
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: isProduction ? '/api' : '/api',
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',
   }
 })
 
-// Attach Basic Auth for dev — in production this would be token-based
 const credentials = btoa('Snehith:Gnanvi01')
 api.defaults.headers.common['Authorization'] = `Basic ${credentials}`
 
